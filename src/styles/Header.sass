@@ -1,0 +1,79 @@
+.header
+    background: #00000010
+    backdrop-filter: blur(20px)
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 999
+    .container
+        align-items: center
+        justify-content: space-between
+        padding: 2rem 0
+        .header__list
+            display: flex
+            gap: 2rem
+        .header__icons
+            display: flex
+            align-items: center
+            gap: 1.5rem
+            
+
+.header__link
+    color: #FFF
+    padding: 0.5rem 
+    z-index: 1
+    font-weight: bold
+    
+.header__link
+    position: relative
+    cursor: pointer
+
+.header__link::before
+    content: ''
+    position: absolute
+    width: 10px
+    height: 10px
+    background: transparent
+    top: -2px
+    left: -2px
+    z-index: 0
+    border-top: 1px solid #D886FF
+    border-left: 1px solid #D886FF
+    transition: 0.5s
+    border-radius: 2px
+
+.header__link::after
+    content: ''
+    position: absolute
+    width: 10px
+    height: 10px
+    background: transparent
+    bottom: -2px
+    right: -2px
+    z-index: 0
+    border-right: 1px solid #D886FF
+    border-bottom: 1px solid #D886FF
+    transition: 0.7s
+    border-radius: 2px
+
+.header__link:hover::before
+    width: 101%
+    height: 101%
+    
+
+.header__link:hover::after
+    width: 101%
+    height: 101%
+    background: #D886FF20
+
+
+.header__icons-link
+    svg
+        path
+            transition: 0.4s ease-in-out
+.header__icons-link:hover 
+    svg
+        path
+            fill: #d886ff
+

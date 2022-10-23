@@ -1,0 +1,13 @@
+<svg width="66" height="60" viewBox="0 0 66 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M61 46V3H5V46" stroke="#AA39E0" stroke-width="5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M61 35H5V46H61V35ZM36 41C36 42.6569 34.6569 44 33 44C31.3431 44 30 42.6569 30 41C30 39.3431 31.3431 38 33 38C34.6569 38 36 39.3431 36 41Z" fill="#AA39E0"/>
+<path d="M25 46H41C41 48.9385 42.9999 51.5 45.8507 52.2127L51 53.5V56H15V53.5L20.1493 52.2127C23.0001 51.5 25 48.9385 25 46Z" fill="#AA39E0"/>
+<rect opacity="0.1" width="10.381" height="10.381" transform="matrix(0 1 1 0 8 7)" fill="#B7E038"/>
+<rect opacity="0.4" width="10.381" height="10.381" transform="matrix(0 1 1 0 21.381 7)" fill="#B7E038"/>
+<rect opacity="0.7" width="10.381" height="10.381" transform="matrix(0 1 1 0 34.762 7)" fill="#B7E038"/>
+<rect width="10.381" height="10.381" transform="matrix(0 1 1 0 48.1429 7)" fill="#B7E038"/>
+<rect opacity="0.1" width="10.381" height="10.381" transform="matrix(0 -1 -1 0 58.5239 34.381)" fill="#B7E038"/>
+<rect opacity="0.4" width="10.381" height="10.381" transform="matrix(0 -1 -1 0 45.1429 34.381)" fill="#B7E038"/>
+<rect opacity="0.7" width="10.381" height="10.381" transform="matrix(0 -1 -1 0 31.7619 34.381)" fill="#B7E038"/>
+<rect width="10.381" height="10.381" transform="matrix(0 -1 -1 0 18.381 34.381)" fill="#B7E038"/>
+</svg>
