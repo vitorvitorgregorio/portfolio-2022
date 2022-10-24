@@ -13,32 +13,32 @@ function Header() {
           <ul className="header__list">
             <li className="header__item">
               <a href="" className="header__link">
-                HOME
+                Home
               </a>
             </li>
             <li className="header__item">
               <a href="" className="header__link">
-                SOBRE
+                Sobre
               </a>
             </li>
             <li className="header__item">
               <a href="" className="header__link">
-                SERVIÇOS
+                Serviços
               </a>
             </li>
             <li className="header__item">
               <a href="" className="header__link">
-                TÉCNOLOGIAS
+                Técnologias
               </a>
             </li>
             <li className="header__item">
               <a href="" className="header__link">
-                PROJETOS
+                Projetos
               </a>
             </li>
             <li className="header__item">
               <a href="" className="header__link">
-                CONTATO
+                Contato
               </a>
             </li>
           </ul>
