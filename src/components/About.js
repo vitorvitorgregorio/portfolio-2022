@@ -1,16 +1,30 @@
 import {ReactComponent as Notebook} from '../svg/notebook.svg'
-import bubbleG from '../svg/bubbles/bubbleG.svg'
-import bubbleM from '../svg/bubbles/bubbleM.svg'
-import bubbleP from '../svg/bubbles/bubbleP.svg'
+import {ReactComponent as BubbleG} from '../svg/bubbles/bubbleG.svg'
+import {ReactComponent as BubbleM} from '../svg/bubbles/bubbleM.svg'
+import {ReactComponent as BubbleP} from '../svg/bubbles/bubbleP.svg'
+
 import '../styles/About.sass'
 
 function About() {
     return (
         <section className="about">
             <div className="bubbles">
-                <img src={bubbleG} alt="" />
-                <img src={bubbleM} alt="" />
-                <img src={bubbleP} alt="" />
+                <BubbleG className='bubble__1'/>
+                <BubbleM className='bubble__2'/>
+                <BubbleM className='bubble__3'/>
+                <BubbleP className='bubble__4'/>
+                <BubbleP className='bubble__5'/>
+                <BubbleP className='bubble__6'/>
+                <BubbleG className='bubble__7'/>
+                <BubbleG className='bubble__8'/>
+                <BubbleM className='bubble__9'/>
+                <BubbleG className='bubble__10'/>
+                <BubbleG className='bubble__11'/>
+                <BubbleG className='bubble__12'/>
+                <BubbleG className='bubble__13'/>
+                <BubbleM className='bubble__14'/>
+                <BubbleM className='bubble__15'/>
+
             </div>
             <div className="container">
                 <article className="about__description">
@@ -19,7 +33,7 @@ function About() {
                     <a href="#" className="about__button">Saiba mais sobre mim</a>
                 </article>
                 <article className="about__image">
-                    <Notebook />
+                    <Notebook className='note'/>
                 </article>
             </div>
         </section>

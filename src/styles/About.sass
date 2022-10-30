@@ -3,14 +3,88 @@
     margin: $section-margin
     background: #40404020
     overflow: hidden
+    padding: 0
     .container
         display: grid
         grid-template-columns: 1fr 1fr
         align-items: center
         justify-content: space-between
         .about__description
-            padding: 1rem 0
-            backdrop-filter: blur(16px)
+            padding: 2rem 1rem
+            backdrop-filter: blur(8px)
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            gap: 2rem
+            border: 2px solid #40445450
+            box-shadow: 0px 2px 16px #40445420
+            border-radius: 20px
+            .about__title
+                font-size: 32px
+                font-weight: bold
+                color: #e09eff
+            .about__button 
+                border: 1px solid #e09eff
+                box-shadow: 0px 2px 16px #40445420
+                padding: 0.5rem
+                color: #fff
+                border-radius: 8px
+                transition: 0.4s
+                &:hover
+                    background: #e09eff
+                    
         .about__image
             display: flex
             justify-content: flex-end
+            .note
+                z-index: 2
+.bubbles 
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 1rem
+    z-index: 1
+    animation: animate__bubbles 15s infinite
+
+.bubble__1
+    animation: animate__bubble 10s linear infinite
+.bubble__2
+    animation: animate__bubble 3s linear infinite
+.bubble__3
+    animation: animate__bubble 8s linear infinite
+.bubble__4
+    animation: animate__bubble 5s linear infinite
+.bubble__5
+    animation: animate__bubble 7s linear infinite
+.bubble__6
+    animation: animate__bubble 13s linear infinite
+.bubble__7
+    animation: animate__bubble 9s linear infinite
+.bubble__8
+    animation: animate__bubble 8s linear infinite
+.bubble__9
+    animation: animate__bubble 4s linear infinite
+.bubble__10
+    animation: animate__bubble 14s linear infinite
+.bubble__11
+    animation: animate__bubble 15s linear infinite
+.bubble__12
+    animation: animate__bubble 11s linear infinite
+.bubble__13
+    animation: animate__bubble 6s linear infinite
+.bubble__14
+    animation: animate__bubble 15s linear infinite
+.bubble__15
+    animation: animate__bubble 2s linear infinite
+@keyframes animate__bubble
+    0%
+        transform: translateY(700px)
+        
+        opacity: 1
+    50%
+        opacity: 0.5
+    100%
+        transform: translateY(0px)
+        opacity: 0.2
+
+@media (max-width: 768px)
