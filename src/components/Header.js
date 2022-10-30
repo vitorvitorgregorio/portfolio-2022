@@ -1,7 +1,6 @@
 import logo from "../svg/logo.svg";
 import { ReactComponent as Github } from "../svg/github.svg";
 import { ReactComponent as Linkedin } from "../svg/linkedin.svg";
-
 import "../styles/Header.sass";
 
 function Header() {
@@ -61,11 +60,6 @@ function Header() {
           </a>
         </nav>
 
-        <button className="hamburguer">
-          <div className="bar bar__1"></div>
-          <div className="bar bar__2"></div>
-          <div className="bar bar__3"></div>
-        </button>
       </div>
     </header>
   );

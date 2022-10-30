@@ -1,0 +1,53 @@
+footer
+    background-color: #14161d
+    padding: 3rem 0 1rem 0
+    .container
+        display: flex
+        flex-direction: column
+        gap: 6rem
+.footer__flex
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    justify-content: space-between
+    align-items: center
+.footer__navigation 
+    display: flex
+    align-items: center
+    justify-content: center
+    ul
+        display: flex
+        flex-direction: column
+        gap: 0.5rem
+        li
+            a
+                color: #FFF
+.footer__social
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    ul
+        display: flex
+        align-items: center
+        gap: 1.5rem
+    
+.footer__copy
+    padding: 1rem 0
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 auto
+    p
+        display: flex
+        gap: 1rem
+        align-items: center
+        justify-content: center
+        img
+            animation: fly 3s linear infinite
+
+@keyframes fly
+    0%
+        transform: translateY(0px)
+        
+    50%
+        transform: translateY(8px)
+        
