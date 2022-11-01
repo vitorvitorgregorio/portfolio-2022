@@ -1,12 +1,12 @@
 @import Variables
 .about
-    margin: $section-margin
+    padding: 6rem 0 
     background: #40404020
     overflow: hidden
-    padding: 0
+    background-attachment: fixed
     .container
         display: grid
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1.2fr 1fr
         align-items: center
         justify-content: space-between
         .about__description
@@ -19,6 +19,11 @@
             border: 2px solid #40445450
             box-shadow: 0px 2px 16px #40445420
             border-radius: 20px
+            p
+                font-size: 1rem
+                line-height: 2.8rem
+                strong
+                    font-weight: 700
             .about__title
                 font-size: 32px
                 font-weight: bold
@@ -38,6 +43,7 @@
             justify-content: flex-end
             .note
                 z-index: 2
+                max-width: 100%
 .bubbles 
     display: flex
     align-items: center
@@ -49,42 +55,49 @@
 .bubble__1
     animation: animate__bubble 10.1s linear infinite
 .bubble__2
-    animation: animate__bubble 3.5s linear infinite
+    animation: animate__bubble 4.5s linear infinite
 .bubble__3
-    animation: animate__bubble 8s linear infinite
-.bubble__4
-    animation: animate__bubble 5.2s linear infinite
-.bubble__5
-    animation: animate__bubble 7.6s linear infinite
-.bubble__6
-    animation: animate__bubble 13s linear infinite
-.bubble__7
     animation: animate__bubble 9s linear infinite
+.bubble__4
+    animation: animate__bubble 6.2s linear infinite
+.bubble__5
+    animation: animate__bubble 8.6s linear infinite
+.bubble__6
+    animation: animate__bubble 14s linear infinite
+.bubble__7
+    animation: animate__bubble 10.2s linear infinite
 .bubble__8
     animation: animate__bubble 8s linear infinite
 .bubble__9
-    animation: animate__bubble 4.7s linear infinite
+    animation: animate__bubble 5.7s linear infinite
 .bubble__10
-    animation: animate__bubble 14s linear infinite
+    animation: animate__bubble 15s linear infinite
 .bubble__11
-    animation: animate__bubble 15s linear infinite
+    animation: animate__bubble 16.5s linear infinite
 .bubble__12
-    animation: animate__bubble 11s linear infinite
+    animation: animate__bubble 12s linear infinite
 .bubble__13
-    animation: animate__bubble 6.2s linear infinite
+    animation: animate__bubble 7.2s linear infinite
 .bubble__14
-    animation: animate__bubble 15s linear infinite
+    animation: animate__bubble 16.2s linear infinite
 .bubble__15
-    animation: animate__bubble 2.4s linear infinite
+    animation: animate__bubble 3.4s linear infinite
 @keyframes animate__bubble
     0%
-        transform: translateY(700px)
+        transform: translateY(600px)
         
         opacity: 1
     50%
         opacity: 0.5
     100%
-        transform: translateY(0px)
+        transform: translateY(-100px)
         opacity: 0.2
 
 @media (max-width: 768px)
+    .about
+        .container
+            display: flex
+            flex-direction: column
+            gap: 2rem
+            .about__description
+                max-width: 80%

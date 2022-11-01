@@ -4,7 +4,8 @@
     align-items: center
     justify-content: center
     .container
-        justify-content: space-between
+        display: grid
+        grid-template-columns: 1fr 1.5fr
         align-items: center
         gap: 4rem
         .services__cards
@@ -12,7 +13,7 @@
             grid-template-columns: repeat(2, 1fr)
             gap: 2rem
             justify-content: space-between
-            .services__card 
+            .services__card
                 border: 2px solid #404454
                 background-color: #2A2D3A
                 backdrop-filter: blur(4px)
@@ -22,3 +23,17 @@
                 flex-direction: column
                 align-items: flex-start
                 gap: 1.5rem
+.services__description
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    .services__title
+        font-size: 28px
+        font-weight: bold
+        color: #e09eff
+    .services__paragraph
+        line-height: 2.5rem
+@media (max-width: 768px)
+    .services
+        .container
+            flex-direction: column-reverse

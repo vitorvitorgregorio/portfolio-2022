@@ -1,4 +1,6 @@
+@import Variables
 footer
+    margin: $section-margin
     background-color: #14161d
     padding: 3rem 0 1rem 0
     .container
@@ -17,10 +19,15 @@ footer
     ul
         display: flex
         flex-direction: column
-        gap: 0.5rem
+        gap: 1rem
         li
             a
                 color: #FFF
+                transition: all 0.2s ease-in-out
+                &:hover
+                    color: #d886ff
+                    
+                    
 .footer__social
     display: flex
     justify-content: flex-end

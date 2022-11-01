@@ -1,17 +1,19 @@
 import About from './components/About';
 
 import Header from './components/Header'
-import Main from './components/Main'
 import Services from './components/Services';
 import Footer from './components/Footer';
+import Technologies from './components/Technologies';
+import Carrer from './components/Carrer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
       <About />
       <Services />
+      <Carrer />
+      <Technologies />
       <Footer />
     </div>
   );

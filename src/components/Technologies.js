@@ -3,15 +3,18 @@ import react from "../svg/react.svg";
 import html from "../svg/html.svg";
 import css from "../svg/css.svg";
 import sass from "../svg/sass.svg";
-import "../styles/Main.sass";
+import "../styles/Technologies.sass";
 
-function Main() {
+function Technologies() {
   return (
-    <main className="main">
+    <section className="technologies">
       <div className="container">
-        <h1 className="main__title">Desenvolvedor Front-End</h1>
-        <section className="main__cards">
-          <div className="main__card">
+        <div className="technologies__description">
+          <h2 className="technologies__title">Técnologias</h2>
+          <p className="technologies__paragraph">Técnologias que atualmente eu estudo e utilizo para desenvolver todos os sites. </p>
+        </div>
+        <article className="technologies__cards">
+          <div className="technologies__card">
             <a
               href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
               target="_blank"
@@ -19,12 +22,12 @@ function Main() {
               <img src={javascript} alt="" />
             </a>
           </div>
-          <div className="main__card">
+          <div className="technologies__card">
             <a href="https://reactjs.org/" target="_blank">
               <img src={react} alt="" />
             </a>
           </div>
-          <div className="main__card">
+          <div className="technologies__card">
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
               target="_blank"
@@ -32,7 +35,7 @@ function Main() {
               <img src={html} alt="" />
             </a>
           </div>
-          <div className="main__card">
+          <div className="technologies__card">
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/css"
               target="_blank"
@@ -40,7 +43,7 @@ function Main() {
               <img src={css} alt="" />
             </a>
           </div>
-          <div className="main__card">
+          <div className="technologies__card">
             <a 
               href="https://sass-lang.com/documentation/" 
               target="_blank"
@@ -48,10 +51,10 @@ function Main() {
               <img src={sass} alt="" />
             </a>
           </div>
-        </section>
+        </article>
       </div>
-    </main>
+    </section>
   );
 }
 
-export default Main;
+export default Technologies;
