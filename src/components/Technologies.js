@@ -3,6 +3,7 @@ import react from "../svg/react.svg";
 import html from "../svg/html.svg";
 import css from "../svg/css.svg";
 import sass from "../svg/sass.svg";
+import figma from "../svg/figma.svg";
 import "../styles/Technologies.sass";
 
 function Technologies() {
@@ -49,6 +50,14 @@ function Technologies() {
               target="_blank"
             >
               <img src={sass} alt="" />
+            </a>
+          </div>
+          <div className="technologies__card">
+            <a 
+              href="https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/" 
+              target="_blank"
+            >
+              <img src={figma} alt="" />
             </a>
           </div>
         </article>

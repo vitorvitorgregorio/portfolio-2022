@@ -1,5 +1,5 @@
 .services
-    padding: 148px 0
+    padding: 148px 0 0 0
     display: flex
     align-items: center
     justify-content: center
@@ -8,21 +8,21 @@
         grid-template-columns: 1fr 1.5fr
         align-items: center
         gap: 4rem
-        .services__cards
-            display: grid
-            grid-template-columns: repeat(2, 1fr)
-            gap: 2rem
-            justify-content: space-between
-            .services__card
-                border: 2px solid #404454
-                background-color: #2A2D3A
-                backdrop-filter: blur(4px)
-                border-radius: 20px
-                padding: 2.5rem 1rem
-                display: flex
-                flex-direction: column
-                align-items: flex-start
-                gap: 1.5rem
+.services__cards
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 2rem
+    justify-content: space-between
+.services__card
+    border: 2px solid #404454
+    background-color: #2A2D3A
+    backdrop-filter: blur(4px)
+    border-radius: 20px
+    padding: 2.5rem 1rem
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap: 1.5rem
 .services__description
     display: flex
     flex-direction: column
@@ -33,7 +33,11 @@
         color: #e09eff
     .services__paragraph
         line-height: 2.5rem
-@media (max-width: 768px)
+@media only screen and (max-width: 768px)
     .services
         .container
-            flex-direction: column-reverse
+            grid-template-columns: 1fr
+
+@media only screen and (max-width: 552px)
+    .services__cards 
+        grid-template-columns: repeat(1, 1fr) 

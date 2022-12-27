@@ -68,8 +68,10 @@ function Footer() {
         </div>
         <div className="footer__copy">
           <p>
-            Desenvolvido por Vitor Gregorio <img src={bat} alt="" /> - &copy;
-            Alguns direitos reservados
+            Desenvolvido por Vitor Gregorio <img src={bat} alt="" /> <span>
+               &copy;
+              Alguns direitos reservados
+            </span>
           </p>
         </div>
       </div>

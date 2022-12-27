@@ -1,3 +1,16 @@
+.icon
+    display: none
+.header__nav-mobile
+    height: 0
+    transform: translatex(-800px)
+    transition: 0.5s ease-in-out
+    .header__list
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .header__link
+            color: transparent
+            transition: 0.3s ease-in-out  
 .header
     background: #00000010
     backdrop-filter: blur(20px)
@@ -74,6 +87,52 @@
         path
             fill: #d886ff
     
+
 @media (max-width: 992px)
-    .header__list
+    .header__nav
         display: none
+    .icon
+        display: flex
+    
+.menuClose
+    transition: 0.5s ease-in-out
+.menuOpen
+    height: 100vh
+    transition: 0.5s ease-in-out
+   
+    .header__nav-mobile
+        height: 100%
+        transform: translatex(0)
+        .header__link
+            color: #FFF
+        
+            
+        
+
+.icon
+    z-index: 4
+
+    cursor: pointer
+.hamburguer
+    display: flex
+    flex-direction: column
+    gap: 0.4rem
+    align-items: center
+    position: relative
+    .bar
+        background: #FFF
+        width: 2rem
+        height: 0.2rem
+        transition: 0.8s ease-in-out
+
+.iconActive
+    .hamburguer
+        gap: 0px
+        .bar-2
+            background-color: transparent
+        .bar-1
+            transform: rotate(420deg) translateX(4px)
+        .bar-3
+            transform: rotate(-420deg) translateX(3px)
+        
+

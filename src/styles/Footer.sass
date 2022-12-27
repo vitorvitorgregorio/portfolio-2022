@@ -58,3 +58,17 @@ footer
     50%
         transform: translateY(8px)
         
+@media (max-width: 768px)
+    .footer__flex
+        grid-template-columns: 1fr
+        align-items: flex-start
+        justify-content: flex-start
+        gap: 2rem
+        .footer__navigation
+            justify-content: flex-start
+        .footer__social
+            justify-content: flex-start
+.footer__copy
+    p
+        display: flex
+        flex-direction: column

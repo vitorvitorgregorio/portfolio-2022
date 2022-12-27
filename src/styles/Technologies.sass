@@ -35,9 +35,21 @@
             align-items: center
             transform: rotate(-45deg)
             transition: 0.5s
+            max-width: 100%
 
     .technologies__card:hover
         transform: rotate(90deg)
 
         img
             transform: rotate(-90deg)
+@media (max-width: 992px)
+    .technologies__cards
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        .technologies__card
+
+            transform: rotate(0deg)
+
+            img
+
+                transform: rotate(0deg)

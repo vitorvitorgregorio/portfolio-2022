@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Services from './components/Services';
 import Footer from './components/Footer';
 import Technologies from './components/Technologies';
-import Carrer from './components/Carrer';
+
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <About />
       <Services />
-      <Carrer />
+
       <Technologies />
       <Footer />
     </div>
