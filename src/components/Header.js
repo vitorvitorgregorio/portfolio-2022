@@ -17,36 +17,28 @@ function Header() {
 
           <nav className="header__nav">
             <ul className="header__list">
+              
               <li className="header__item">
-                <a href="" className="header__link">
-                  Home
-                </a>
-              </li>
-              <li className="header__item">
-                <a href="" className="header__link">
+                <a href="#sobre" className="header__link">
                   Sobre
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link">
+                <a href="#servicos" className="header__link">
                   Serviços
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link">
+                <a href="#tecnologias" className="header__link">
                   Técnologias
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link">
+                <a href="#projetos" className="header__link">
                   Projetos
                 </a>
               </li>
-              <li className="header__item">
-                <a href="" className="header__link">
-                  Contato
-                </a>
-              </li>
+              
             </ul>
           </nav>
           
@@ -79,37 +71,29 @@ function Header() {
           </div>
         </div>
         <nav className="header__nav-mobile">
-            <ul className="header__list">
+            <ul className="header__list-mobile">
+              
               <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
-                  Home
-                </a>
-              </li>
-              <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
+                <a href="#sobre" className="header__link" onClick={ToggleMode}>
                   Sobre
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
+                <a href="#servicos" className="header__link" onClick={ToggleMode}>
                   Serviços
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
+                <a href="#tecnologias" className="header__link" onClick={ToggleMode}>
                   Técnologias
                 </a>
               </li>
               <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
+                <a href="#projetos" className="header__link" onClick={ToggleMode}>
                   Projetos
                 </a>
               </li>
-              <li className="header__item">
-                <a href="" className="header__link" onClick={ToggleMode}>
-                  Contato
-                </a>
-              </li>
+              
             </ul>
           </nav>
       </div>

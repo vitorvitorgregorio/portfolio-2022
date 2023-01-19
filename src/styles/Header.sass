@@ -4,10 +4,13 @@
     height: 0
     transform: translatex(-800px)
     transition: 0.5s ease-in-out
-    .header__list
+    .header__list-mobile
+        padding: 2rem 0
         flex-direction: column
         align-items: center
         justify-content: center
+        gap: 2rem
+        
         .header__link
             color: transparent
             transition: 0.3s ease-in-out  
@@ -91,14 +94,20 @@
 @media (max-width: 992px)
     .header__nav
         display: none
+    .header__list 
+        display: none
     .icon
         display: flex
     
 .menuClose
     transition: 0.5s ease-in-out
+    .header__list-mobile
+        display: none
 .menuOpen
     height: 100vh
     transition: 0.5s ease-in-out
+    .header__list-mobile
+        display: flex
    
     .header__nav-mobile
         height: 100%

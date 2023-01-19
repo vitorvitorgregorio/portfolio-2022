@@ -8,7 +8,7 @@ import "../styles/Technologies.sass";
 
 function Technologies() {
   return (
-    <section className="technologies">
+    <section className="technologies" id="tecnologias">
       <div className="container">
         <div className="technologies__description">
           <h2 className="technologies__title">Técnologias</h2>

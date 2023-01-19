@@ -12,28 +12,7 @@ function Footer() {
           <div className="footer__logo">
             <img src={logo} alt="" />
           </div>
-          <nav className="footer__navigation">
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Sobre</a>
-              </li>
-              <li>
-                <a href="#">Serviços</a>
-              </li>
-              <li>
-                <a href="#">Técnologias</a>
-              </li>
-              <li>
-                <a href="#">Projetos</a>
-              </li>
-              <li>
-                <a href="#">Contato</a>
-              </li>
-            </ul>
-          </nav>
+          
           <div className="footer__social">
             <ul>
               <li>
