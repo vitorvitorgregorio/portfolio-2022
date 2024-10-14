@@ -29,7 +29,7 @@ function About() {
             <div className="container">
                 <article className="about__description">
                     <h2 className="about__title"> Quem sou </h2>
-                    <p className="paragraph about__paragraph">Prazer, sou o <strong>Vitor Gregorio</strong> - Desenvolvedor Front-End que ama técnogia e apaixonado por CSS. Desenvolvo interfaces modernas e de alta qualidade com foco em performance, interatividade, responsividade e SEO</p>
+                    <p className="paragraph about__paragraph">Prazer, sou o <strong>Vitor Gregorio</strong> - Desenvolvedor Front-End que ama tecnologia e apaixonado por CSS. Desenvolvo interfaces modernas e de alta qualidade com foco em performance, interatividade, responsividade e SEO</p>
                     
                 </article>
                 <article className="about__image">
