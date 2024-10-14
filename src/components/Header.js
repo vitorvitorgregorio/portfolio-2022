@@ -30,7 +30,7 @@ function Header() {
               </li>
               <li className="header__item">
                 <a href="#tecnologias" className="header__link">
-                  Técnologias
+                  Tecnologias
                 </a>
               </li>
               <li className="header__item">
